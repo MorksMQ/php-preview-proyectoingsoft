@@ -1,0 +1,388 @@
+/* Defauld ==================================================*/
+
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+body.body1{
+    padding-top: 10px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* ======================================================= */
+
+/* header ==================================================*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+.bloq1{
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row;
+    
+    width: 250px;
+    padding-right: 35px;
+}
+.agregar{
+    display: flex;
+    align-items: center;
+}
+.perfil{
+    display: flex;
+    flex-direction: column;
+}
+.perfil1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.perfil2{
+    margin-right: 10px;
+}
+.perfil3{
+    text-decoration: none;
+}
+.perfil p, .perfil3 h3{
+    margin: 0;
+}
+.perfil4{
+    font-size: 14px;
+}
+img.lupa{
+    width: 25px;
+}
+input.buscador{
+    height: 30px;
+    width: 450px;
+
+    margin: 0;
+    padding: 0;
+}
+.carrito{
+    display: flex;
+    align-items: center;
+}
+/* .flex-row{
+    display: flex;
+    flex-direction: row;
+} */
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+/* ======================================================= */
+
+/* index ============================================== */
+
+.heros-section{
+    height: 235px;
+    border-bottom: 1px #fff;
+}
+.bloq2{
+    border: 1px solid #000;
+
+    height: 250px;
+    width: 95%;
+}
+
+/* ======================================================= */
+
+/* login ============================================ */
+
+.login3 {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;            
+    background-color: #f4f4f4; 
+}
+
+.login {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; 
+    text-align: center; 
+}
+
+.login p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.login a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+/* ======================================================= */
+
+/* register ========================================== */
+
+.singup3 {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 150vh;         
+    background-color: #f4f4f4; 
+}
+
+.singup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center; 
+}
+
+.singup p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.singup input[type="text"],
+.singup input[type="password"],
+.singup input[type="email"],
+.singup input[type="date"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.singup input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.singup input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.singup a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.singup a:hover {
+    text-decoration: underline;
+}
+
+/* ======================================================= */
+
+/* buscador ============================================== */
+
+section.sect1{
+    max-width: 20%;
+    height: 100%;
+}
+
+section.sect2{
+    max-width: 80%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.view1 {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px; 
+}
+
+.view2 {
+    margin-right: 20px;
+}
+
+.view3 {
+    flex: 2; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.view3 h2, .view3 p {
+    margin: 5px 0; 
+}
+
+img.view4 {
+    max-width: 100px;
+    height: auto;
+    display: block; 
+}
+/* ======================================================= */
+
+/* recursos universales ============================================== */
+
+.flex{
+    display: flex;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.width100{
+    width: 100%;
+}
+/* ======================================================= */
+
+/* tarjetas de productos ============================================== */
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.producto-tarjeta {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+}
+
+.producto-tarjeta img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.producto-tarjeta h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.producto-tarjeta p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.boton1 {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.boton1:hover {
+    background-color: #0056b3;
+}
+
+.boton2 {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    color: #fff;
+    background-color: #ff8800;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.boton2:hover {
+    background-color: #c56900;
+}
+
+.boton3 {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: fit-content;
+    padding: 3px;
+    background-color: #f52727;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.boton3:hover {
+    background-color: #b30000;
+}
+
+.botones1{
+    display: flex;
+    flex-direction: row;
+}
+/* ======================================================= */
+
+/* (separador) ============================================== */
+
+
+
+/* ======================================================= */
